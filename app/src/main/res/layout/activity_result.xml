@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ResultActivity"
+    android:background="@drawable/bg_curve">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title1"
+        android:textSize="50sp"
+     android:textColor="#BF360C"
+        android:text="title"
+        android:paddingBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="36dp"
+        android:layout_marginBottom="25dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#1A237E" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_Replay"
+            android:layout_width="134dp"
+            android:layout_height="64dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshape"
+            android:text="Replay"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_Share"
+
+            android:layout_width="134dp"
+            android:layout_height="62dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonshape"
+            android:text="Share"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
+

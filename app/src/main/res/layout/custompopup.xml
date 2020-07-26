@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="475dp"
+    android:background="#C0C8DA"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/textclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="#F70303"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/cross"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/think"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How TO Play?"
+            android:textStyle="bold"
+            android:textColor="#0097A7"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+        <LinearLayout
+            android:background="#DF0707"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap Start Button"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="#F0E0BF1A"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Relatable Answer to Questions"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="#0A179C"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Get Exciting Results"
+                android:textSize="18sp"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

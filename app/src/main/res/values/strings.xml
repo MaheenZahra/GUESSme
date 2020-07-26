@@ -1,0 +1,56 @@
+<resources>
+    //strings to be used in AboutUs activity
+    <string name="app_name">GUESS me</string>
+    <string name="developer1_Name"> Maheen Zahra </string>
+    <string name="developer1_Rollno"> 17-SE-78 </string>
+    <string name="developer12_Name"> Imman Afzal </string>
+    <string name="developer2_Rollno"> 17-SE-92 </string>
+    <string name="title_activity_info">Info</string>
+    <!--Strings to be used in resultActivty for generating result against score -->
+
+     <string name="score6result">
+         "you are a deep and humble person, you only like to speak your heart out with the one who are closest to you.You live bit behind the time but one best thing about you is you mostly think out of the box. You are your own boss that's why you don't like other's bossy attitude. You have a dominant personality.Nature nd its beauty is your week points and you as well love to look beautiful. You yourself is a simple person and don't like exhibitionist person. You are a loyal person and like loyal people.You prefer happiness over money"
+     </string>
+    <string name="score18result">
+        "You appear to be an introvert,less socially outgoing and more reserved than most other people. You are quiet,low-key,deliberate but it can't be interpreted as shyness or depression.You simply need less stimulation than extroverts and more time alone. But you are quite good at finding meaning and purpose in life "
+    </string>
+    <string name="score22result">
+        "You are independent,you don't have insecurities or anxieties or you don't care much about things. You are curious and interested in other people and in things they are learning and discovering. You don't try very hard to impress others. You are non judgmental and pretty much always confident and always project positive vibes"
+    </string>
+    <string name="score30result">
+        "You appear to be neutral in your openness to new experiences. You always welcome them you are creative and adventurous and always love tasking risks and never fear failure. You love sharing your experiences and success stories with others "
+    </string>
+    <string name="score38result">
+        "You are quiet,open-minded,imaginative,and apply a caring and creative approach to everything you do.You present yourself in a believable and consistent manner, and follow through on any promises made as well as never  promise what you cannot deliver."
+
+    </string>
+
+    <string name="score42result">
+        "You are strong and competitive. You don't draw people's attention towards yourself people get drawn to you automatically. You have mysterious personality but a noticeable trait about you is you are funny as well you know how to instantly make people happy and feel well about thierselves"
+    </string>
+    <string name="score46result">
+        " You have compassion for others and you have an understanding of what the person is going through.You are polite, considerate, generous, affectionate, patient,loving and forgiving. You go out of your way to make others feel special, to make them happy or feel more confident in themselves. you're sensitive to others' feeling"
+    </string>
+    <string name="score54result">
+        "You are obsessed about material things and store them, but never really use them.You're obsessed with getting new things, just for the sake about getting new things.You like having things to brag about to friends, family and strangers. You're are insecure and use your possessions to impress others and make yourself feel better"
+    </string>
+
+    <string name="defaultResult">
+        "You may be a bit more emotionally reactive and vulnerable to stress than others. You are more likely to interpret ordinary situations as threatening, and minor frustrations as being more difficult than they really are. You are bad at decision making"
+    </string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
